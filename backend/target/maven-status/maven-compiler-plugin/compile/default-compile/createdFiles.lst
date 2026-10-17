@@ -1,0 +1,10 @@
+com\retro\jogos\model\Game.class
+com\retro\jogos\service\GameStorageService.class
+com\retro\jogos\JogosRetroApplication.class
+com\retro\jogos\model\RetroSystem.class
+com\retro\jogos\service\GameStorageService$1.class
+com\retro\jogos\dto\GameResponseDTO.class
+com\retro\jogos\config\WebMvcConfig.class
+com\retro\jogos\controller\SystemController.class
+com\retro\jogos\controller\GameController.class
+com\retro\jogos\dto\SystemInfoDTO.class
