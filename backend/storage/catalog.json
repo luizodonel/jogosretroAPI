@@ -1,16 +1,16 @@
 [ {
-  "id" : 11,
+  "id" : 12,
   "title" : "Donkey Kong Country (U) (V1.2) [!]",
   "systemCore" : "snes",
   "systemName" : "Super Nintendo",
   "releaseYear" : 1995,
   "genre" : "Aventura",
   "description" : "Jogo adicionado pelo usuário.",
-  "romFileName" : "game_11_Donkey_Kong_Country__U___V1.2_____.smc",
+  "romFileName" : "game_12_Donkey_Kong_Country__U___V1.2_____.smc",
   "romSizeBytes" : 4194304,
-  "coverFileName" : "cover_11_Gemini_Generated_Image_fy33vufy33vufy33.jpeg",
+  "coverFileName" : "cover_12_Gemini_Generated_Image_ii6cbtii6cbtii6c.jpeg",
   "customCoverUrl" : null,
   "hasSaveState" : false,
-  "createdAt" : [ 2026, 10, 17, 15, 20, 18, 604985300 ],
+  "createdAt" : [ 2026, 10, 17, 15, 53, 9, 216908600 ],
   "lastPlayedAt" : null
 } ]

@@ -1,0 +1,5 @@
+backend/target
+target
+.git
+.vscode
+.idea
