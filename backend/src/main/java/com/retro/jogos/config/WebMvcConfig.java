@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 
-    @Value("${retro.cors.allowed-origins:http://localhost:4200,http://127.0.0.1:4200}")
+    @Value("${retro.cors.allowed-origins:http://localhost:4200,http://127.0.0.1:4200,https://jogosretro.luizodonel.cloud,http://jogosretro.luizodonel.cloud}")
     private String allowedOrigins;
 
     @Value("${retro.storage.path:storage}")
@@ -23,6 +23,14 @@ public class WebMvcConfig implements WebMvcConfigurer {
         String[] origins = allowedOrigins.split(",");
         registry.addMapping("/**")
                 .allowedOrigins(origins)
+                .allowedOriginPatterns(
+                        "http://localhost:*",
+                        "http://127.0.0.1:*",
+                        "https://jogosretro.luizodonel.cloud",
+                        "http://jogosretro.luizodonel.cloud",
+                        "https://*.luizodonel.cloud",
+                        "http://*.luizodonel.cloud"
+                )
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "HEAD")
                 .allowedHeaders("*")
                 .exposedHeaders("Content-Disposition", "Content-Length", "Accept-Ranges")

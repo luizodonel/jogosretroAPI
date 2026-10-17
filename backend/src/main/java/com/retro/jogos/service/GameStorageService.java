@@ -379,7 +379,7 @@ public class GameStorageService {
     private GameResponseDTO toResponseDTO(Game game) {
         String coverUrl = game.getCustomCoverUrl();
         if (game.getCoverFileName() != null) {
-            coverUrl = "http://localhost:8080/api/games/" + game.getId() + "/cover";
+            coverUrl = "/api/games/" + game.getId() + "/cover";
         }
         if (coverUrl == null || coverUrl.isBlank()) {
             coverUrl = getDefaultCoverForSystem(game.getSystemCore());
