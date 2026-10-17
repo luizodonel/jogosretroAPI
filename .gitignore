@@ -1,0 +1,19 @@
+# Maven
+target/
+*.class
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Storage
+backend/storage/roms/*
+!backend/storage/roms/.gitkeep
+backend/storage/saves/*
+!backend/storage/saves/.gitkeep
+backend/storage/covers/*
+!backend/storage/covers/.gitkeep
