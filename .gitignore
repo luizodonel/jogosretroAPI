@@ -13,7 +13,11 @@ target/
 # Storage
 backend/storage/roms/*
 !backend/storage/roms/.gitkeep
+!backend/storage/roms/game_12_*
+!backend/storage/roms/game_13_*
 backend/storage/saves/*
 !backend/storage/saves/.gitkeep
 backend/storage/covers/*
 !backend/storage/covers/.gitkeep
+!backend/storage/covers/cover_12_*
+!backend/storage/covers/cover_13_*
