@@ -13,4 +13,19 @@
   "hasSaveState" : false,
   "createdAt" : [ 2026, 10, 17, 15, 53, 9, 216908600 ],
   "lastPlayedAt" : null
+}, {
+  "id" : 13,
+  "title" : "Street Fighter II Turbo (V1.0) (E) [!]",
+  "systemCore" : "snes",
+  "systemName" : "Super Nintendo",
+  "releaseYear" : 1995,
+  "genre" : "Aventura",
+  "description" : "Jogo adicionado pelo usuário.",
+  "romFileName" : "game_13_Street_Fighter_II_Turbo__V1.0___E_____.zip",
+  "romSizeBytes" : 1668471,
+  "coverFileName" : "cover_13_Gemini_Generated_Image_taql6ztaql6ztaql.jpeg",
+  "customCoverUrl" : null,
+  "hasSaveState" : false,
+  "createdAt" : [ 2026, 10, 17, 16, 10, 53, 466765800 ],
+  "lastPlayedAt" : null
 } ]
